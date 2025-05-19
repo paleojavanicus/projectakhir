@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Asset/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="Asset/css/style.css"/>
+    <link rel="stylesheet" href="Asset/css/carousel.css"/>
+    <script src="Asset/js/bootstrap.min.js"></script>
+    <script src="Asset/js/bootstrap.bundle.min.js"></script>
+
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded fixed-top shadow" aria-label="Thirteenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+            <a class="navbar-brand col-lg-3 me-0" href="#">
+                <img src="Asset/Image/Logo.png" width="150">
+            </a>
+            <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active Rubik" aria-current="page"href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Rubik" href="aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle Rubik" href="#" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item Rubik" href="#">Centuries</a></li>
+                  <li><a class="dropdown-item Rubik" href="#">The Artist</a></li>
+                  <li><a class="dropdown-item Rubik" href="#"></a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3 mt-lg-0" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <div class="container col-xxl-8 px-1 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6 position-relative zoom">
+                <img src="Asset/Image/Lukisan/Bonaparte-Crossing-the-Alps-at-the-Saint-Bernard-Pass-–-Jacques-Louis-David--866x1024.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="450" height="250" loading="lazy">
+                <p style="padding-left: 80px; padding-right: 70px;" class="fst-italic text-body-secondary text-center">Bonaparte Crossing the Alps at the Saint Bernard Pass  - Jacques Louis David (1800s)</p>
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-4 lh-1 mb-4" style="font-family: playfairdisplay, serif;">Discover the Power and Legacy of a Great Leader</h1>
+                <p class="lead" style="font-family: playfairdisplay, serif;">Step into the world of Napoleon Bonaparte, a symbol of courage, strategy, and revolutionary change. Explore how one man shaped the course of European history through bold vision, military genius, and unshakable ambition.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Start the Historical Journey</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-center my-2 px-5">
+            <div class="flex-grow-1"style="border-bottom: 2px solid#333;" ></div>
+            <h3 class="mx-3 mb-0 fw-bold text-dark" style="font-family: merriweather,serif ;">Venture into the past!</h3>
+            <div class="flex-grow-1" style="border-bottom: 2px solid#333;"></div>
+          </div> 
+        
+          <div class="container px-4 py-5" id="custom-cards">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" style="min-height: 553px !important;">
+              <div class="col">
+                <div class="card card-cover  h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('Asset/Image/Lukisan/American-Gothic-–-Grant-Wood-.png'); background-repeat: no-repeat; background-size: 346px 432px;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <a href="americanGhotic.html"><h3 class="display-6 lh-1 fw-bold text-white text-decoration-none" style="margin-top: 210px;">American Gothic </h3></a>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="Asset/Image/Pelukis/Grant Wood.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-5">
+                        <svg class="bi" width="1em" height="1em" role="img" aria-label="Location"><use href="" ></use></svg>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="text-decoration-none text-white">
+                        <small>Grant Wood</small>
+                      </li></a>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-4" width="1em" height="1em" role="img" aria-label="Duration"><use xlink:href="#calendar3"></use></svg>
+                        <small>1930</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog custom-modal-size">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel"><b>Grant Wood</b></h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                     
+                       <center> <img src="Asset/Image/Pelukis/Grant Wood.jpeg" style="width: 200px; height: 200px; border-radius: 50%;" class="justify-content-center"></center>
+                     <p><br>Grant Wood was an American painter best known for his iconic work American Gothic (1930), which became one of the most recognizable images in American art. Born in Iowa in 1891, Wood was a central figure in the Regionalism movement, which focused on realistic depictions of rural American life during the Great Depression. His paintings often featured scenes from the American Midwest, rendered with sharp detail and a slightly stylized, sometimes satirical tone. American Gothic, featuring a stern-looking farmer and his daughter (or wife), is both celebrated and debated for its commentary on traditional American values.
+                      <br><br>Throughout his career, Grant Wood sought to create a distinctly American art style, separate from European influences. He emphasized the importance of local culture, everyday people, and the American landscape in his works. Beyond painting, Wood also taught art and promoted the idea that artists should draw inspiration from their own environments. His legacy lies in his ability to blend realism with a unique visual narrative that captured the spirit—and contradictions—of American identity during a time of great social and economic change.</p>                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('Asset/Image/Lukisan/The-Arnolfini-Portrait-–-Jan-Van-Eyck--1123x1536.png'); background-repeat: no-repeat; background-size: 346px 432px;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <a href="americanGhotic.html"><h3 class=" display-6 lh-1 fw-bold" style="margin-top: 210px;" >The Arnolfini Portrait</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="Asset/Image/Pelukis/Jan Van Eyck.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-5">
+                        <svg class="bi" width="1em" height="1em" role="img" aria-label="Location"><use xlink:href="#geo-fill"></use></svg>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" class="text-decoration-none text-white">
+                        <small>Jan Van Eyck</small>
+                      </li></a>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-4" width="1em" height="1em" role="img" aria-label="Duration"><use xlink:href="#calendar3"></use></svg>
+                        <small>1434</small> 
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog custom-modal-size">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel"><b>Jan Van Eyck</b></h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                     
+                       <center> <img src="Asset/Image/Pelukis/Jan Van Eyck.jpeg" style="width: 200px; height: 200px; border-radius: 50%; text-align: justify;" class="justify-content-center" ></center>
+                     <p><br>Jan van Eyck was a Flemish painter of the 15th century and is considered one of the pioneers of Northern Renaissance art. Born around 1390, he served as a court painter to Philip the Good, Duke of Burgundy. Van Eyck is renowned for his mastery of oil painting, a relatively new medium at the time, and for his incredible attention to realistic detail and lighting. One of his most famous works, The Arnolfini Portrait, showcases his extraordinary skill in rendering textures, reflections, and symbolic elements with precision.
+                      <br><br>In addition, Van Eyck was known for his scientific and observational approach to painting, which set him apart from many of his contemporaries. He often signed his works with the phrase "Als Ich Can" (As well as I can), reflecting his commitment to technical and artistic excellence. His paintings not only served as art but also as historical records of the clothing, culture, and values of his time. Jan van Eyck’s legacy had a profound impact on the development of Western art, making him one of the most important figures in art history.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('Asset/Image/Lukisan/the-mona-lisa.jpg');background-repeat: no-repeat;background-size: 346px 480px;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class=" display-6 lh-1 fw-bold" style="margin-top: 210px;">The Mona Lisa</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-1">
+                        <img src="Asset/Image/Pelukis/LEONARDO DA ViNCi.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <a class="d-flex align-items-center me-2">
+                        <svg class="bi" width="1em" height="1em" role="img" aria-label="Location"><use xlink:href="#geo-fill"></use></svg>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop3" class="text-decoration-none text-white">
+                        <small>Leonardo da Vinci</small>
+                      </li></a>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-4" width="1em" height="1em" role="img" aria-label="Duration"><use xlink:href="#calendar3"></use></svg>
+                        <small>1503</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog custom-modal-size">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel"><b>Leonardo Da Vinci</b></h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 
+                   <center> <img src="Asset/Image/Pelukis/LEONARDO DA ViNCi.jpeg" style="width: 200px; height: 200px; border-radius: 50%;" class="justify-content-center"></center>
+                 <p><br>Leonardo da Vinci was an Italian polymath of the Renaissance era, widely regarded as one of the most brilliant minds in history. Born in 1452, he was not only a masterful painter but also an inventor, scientist, engineer, anatomist, and architect. His most famous paintings, The Last Supper and Mona Lisa, showcase his extraordinary skill in capturing human emotion, perspective, and light. Leonardo’s notebooks reveal his endless curiosity, filled with sketches of flying machines, anatomical studies, and scientific observations far ahead of his time.
+                 <br><br> What set Leonardo apart was his unique blend of art and science. He believed that to paint the human body accurately, one must understand its internal structure, which led him to dissect corpses and study anatomy in detail. His interdisciplinary approach influenced generations of artists and scientists. Although many of his inventions were never built in his lifetime, they laid the groundwork for future developments. Leonardo da Vinci remains a symbol of the Renaissance ideal—a person driven by an insatiable quest for knowledge and the integration of art with science.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+          <div class="my-5">
+            <div class="p-5 text-justify-left" style="background-image: url(Asset/Image/home/Leonardo\ da\ vinciii.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 400px;">
+              <div class="container py-5 mt-5 mb-5;">
+                <br><br><p class="text-body-emphasis float-start fs-3" style="margin-left:350px;margin-top: -64px; font-family: playfair display,serif ;">“Painting is poetry that is seen rather than felt, and poetry is painting that is felt rather than seen.” </p>
+                <p class="col-lg-4 float-start  " style="margin-left:360px;margin-top: -5px; font-family: cardo,serif;"> <b>- Leonardo da Vinci -
+                </p></b>
+              </div>
+            </div>
+          </div>
+      
+
+          <div class="bg-primary-100 position-relative"><img class="position-absolute" src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/demo/monstera-1.png" alt="" style="width: 15vw; right: -65px; top: -250px;">
+            <div class="container py-6 text-center" style="margin-top: 150px;">
+              <h2>Masterpieces of the 1800s</h2>
+              <p class="text-muted mb-6">
+                Discover timeless paintings that shaped the art world of the 19th century.</p>
+              <div class="row" style="margin-top: 50px;">
+                <div class="col-sm-6 position-relative mb-5 zoom">
+                  <div class="page-label shadow ">Théodore Géricault </div><a class="d-block mb-4" href="index.html" target="_blank"><img class="img-fluid shadow-lg hover-scale " src="Asset/Image/Lukisan/The-Raft-of-the-Medusa-–-Theodore-Gericault--1024x699.png" alt="val.name" style="border-radius: 2%;"></a>
+                  <h3 class="h6 text-uppercase"><a class="text-reset" href="index.html" target="_blank"> The Raft of the Medusa (1818)</a></h3>
+                </div>
+                <div class="col-sm-6 position-relative mb-5 zoom">
+                  <div class="page-label shadow">Francisco de Goya</div><a class="d-block mb-4" href="index-2.html" target="_blank"><img class="img-fluid shadow-lg hover-scale" src="Asset/Image/Lukisan/The-Third-of-May-–-Francisco-de-Goya - 1024x781.png" alt="val.name" style="border-radius: 2%;"></a>
+                  <h3 class="h6 text-uppercase"><a class="text-reset" href="index-2.html" target="_blank">The Third of May 1808 (1814)</a></h3>
+                </div>
+                <div class="col-sm-6 position-relative mb-5 zoom">
+                  <div class="page-label shadow">John Everret Millais</div><a class="d-block mb-4" href="index-3.html" target="_blank"><img class="img-fluid shadow-lg hover-scale" src="Asset/Image/Lukisan/Ophelia-–-John-Everett-Millais--1024x697.jpg" alt="val.name"style="border-radius: 2%;"></a>
+                  <h3 class="h6 text-uppercase"><a class="text-reset" href="index-3.html" target="_blank">Ophelia (1851)</a></h3>
+                </div>
+                <div class="col-sm-6 position-relative mb-5 zoom">
+                  <div class="page-label shadow">John Singer Sargent</div><a class="d-block mb-4" href="index-4.html" target="_blank"><img class="img-fluid shadow-lg hover-scale" src="Asset/Image/Lukisan/The-Jaleo-–-John-Singer-Sargent - 1024x692.jpg" alt="val.name"style="border-radius: 2%;"></a>
+                  <h3 class="h6 text-uppercase"><a class="text-reset" href="index-4.html" target="_blank">El Jaleo (1889)</a></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="my-5"><img class="position-absolute" src="Asset/Image/home/montera 2.png" alt="" style="width: 15vw; left: -50px; bottom: -3100px; ">
+            <div class="p-5 text-justify-right text-end" style="background-image: url(Asset/Image/home/Vincent\ van\ Gogh.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 400px;">
+              <div class="container py-5 mt-5 mb-5;">
+                <br><br><p class="text-body-emphasis float-end fs-3" style="margin-right:380px;margin-top: -64px; font-family: playfair display,serif ;">"I want to touch people with my art. I want them to say ‘he feels deeply, he feels tenderly.’” </p>
+                <p class="col-lg-4 float-end  " style="margin-right:400px;margin-top: -5px; font-family: cardo,serif;"> <b>- Vincent Van Gogh -
+                </p></b>
+              </div>
+            </div>
+          </div>
+    </main>
+    <div class="container-fluid" style="background-color: #f6eee3;">
+      <footer class="" style="padding-top: 50px ; padding-right: 50px; padding-left: 10px; ">
+        <div class="row">
+          <div class="col-6 col-md-4 mb-3 ">
+          <img src="Asset/Image/Logo.png" width="330px" height="100px">
+          <br><p class=" p-0 text-dark"><i>"Uncovering untold stories behind timeless art"</i></p>
+            </div>
+    
+          <div class="col-6 col-md-4 mb-3">
+            <!-- <h5 class="text-center" style="padding-left: 5px;"><b>Section</b></Section></h5>
+            <p class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" >Home</a></p>
+            <p class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" >Home</a></p> -->
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Me</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Centuries</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">The Artist</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li> -->
+            <br>
+            <p class="text-center" style="padding-left: 5px;"><b>Contact Us</b></p>
+            <div class="btn-group" style="padding-left: 95px;">
+              <a class="btn" href="http://wa.me/6285649130118">
+                  <button type="button" class="btn btn-outline-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                          <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"></path>
+                    </svg>
+                    </button>
+              </a>
+
+              <a class="btn" href="https://www.instagram.com/aprramrite_?igsh=ZTF5YWlzdzdxbTNt">
+                  <button type="button" class="btn btn-outline-danger">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                      </svg>
+                  </button>
+              </a>
+              <a class="btn" href="https://t.me/Tria_apr">
+                  <button type="button" class="btn btn-outline-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"></path>
+                      </svg>
+                  </button>
+              </a>
+                </div>
+                
+          </div>
+          <div class="col-md-4 mb-3 ">
+            <form>
+              <h5><b>Join the Art Circle</b></h5>
+              <p>"Discover stories behind every stroke."</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden" style="width: 20px;" >Email address</label>
+                <input id="newsletter1" type="email" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
+          <p>© 2025 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
